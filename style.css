@@ -1,0 +1,46 @@
+body{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    width: 700px;
+    height:auto;
+    background-color: yellowgreen;
+    border: solid 20px black;
+}
+
+.video-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 400px;
+background-color: yellowgreen;
+border: solid 20px black;
+margin: 0 auto;
+}
+
+video{
+width:50%;
+height: auto;
+max-width: 600px;
+}
+
+button{
+  margin: 1px;
+  cursor: pointer;
+}
+
+button:hover{
+    background-color: aqua;
+}
